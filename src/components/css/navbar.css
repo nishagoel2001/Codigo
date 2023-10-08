@@ -1,0 +1,26 @@
+.navbar{
+    height: 100px;
+}
+.navbar-brand{
+    color: #D5333E;
+    font-size: xx-large;
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+text-decoration: underline;
+}
+.nav-btn{
+color: white;
+background-color: black;
+border-radius: 20rem;
+}
+.nav-btn:hover{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    /* transition: transform .50s; */
+    transition: 0.4s all ease-in-out;
+    transform: scale(1.2);
+}

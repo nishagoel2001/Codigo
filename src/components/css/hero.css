@@ -1,0 +1,48 @@
+.hero-head{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.hero-headred{
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #D5333E;
+}
+
+.circle-sec{
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+}
+.circle-head{
+    font-size: 0.4rem;
+}
+.circle {
+    width: 120px;
+    height: 120px;
+    background-color: Yellow; /* Circle background color */
+    border-radius: 50%; /* Create a perfect circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black; /* Text color inside the circle */
+    font-size: 4px; /* Font size for the content */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+    transition: transform 0.7s; /* Transition property for smooth hover effect */
+  }
+  
+  .circle:hover {
+    transform: scale(3); 
+  }
+  .circle-content {
+    display: none;
+  }
+  .circle:hover .circle-content {
+    display: block;
+  }
+  
+  .circle-out-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .circle-out-subtext{
+    margin-bottom: 10rem;
+  }

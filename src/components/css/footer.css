@@ -1,0 +1,37 @@
+.footer-text{
+font-size: 2rem;
+color: #D5333E;
+}
+/* .footer-brand {
+    font-size: xx-large;
+  }
+  .footer-headers {
+    color: #4858e8;
+  }
+  .footer-content{
+      text-decoration: none;
+      color: white;
+  }
+  .footer-content:hover{
+      text-decoration: underline;
+  }
+  .footer-btn {
+    color: #4858e8;
+    border-color: #4858e8;
+    border-radius: 0;
+  }
+  .footer-btn:hover {
+    background-color: white;
+    color: black;
+  }   */
+
+  .footer-cont{
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+.footer-subcont{
+    font-weight: 300;
+    font-size: 0.9rem;
+    letter-spacing: normal;
+}
